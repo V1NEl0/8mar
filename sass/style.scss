@@ -1,0 +1,40 @@
+@import 'base/media';
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center 
+}
+
+
+.main__img {
+    width: 345px;
+    margin-top: 40px;
+}
+
+h1 {
+    color: wheat;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.main__subtitle {
+    color: wheat;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.main__video {
+    margin-top: 50px;
+}
